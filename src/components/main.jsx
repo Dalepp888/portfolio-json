@@ -1,4 +1,5 @@
 import Pila from "./pila";
+import Projects from "./projects";
 import Acerca from "./sectionacerca";
 import Educa from "./sectionEduca";
 import Experiences from "./sectionexperien";
@@ -9,6 +10,8 @@ export default function Main(){
             <Acerca/>
             <hr className="my-5"></hr>
             <Experiences/>
+            <hr className="my-5"></hr>
+            <Projects/>
             <hr className="my-5"></hr>
             <Educa/>
             <hr className="my-5"></hr>
