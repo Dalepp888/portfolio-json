@@ -14,7 +14,8 @@
     "escuela": "UNICA",
     "fechaesco": "septiembre 2022 - julio 2025",
     "projects":[
-        {"img": "/projects/c++.png", "nombre":"BlogDalepp","descripcion":"scaling startups as a solopreneur, or working collaboratively in teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."},
-        {"img": "/projects/php.png", "nombre":"Portfolio","descripcion":"Computer Sciences Engineer with 10+ years of experience (since 2013) in building, operating, and scaling startups as a solopreneur, or working collaboratively in teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."}
-    ]
+        {"img": "/projects/c++.png", "link": "https://erickdevup.netlify.app/","nombre":"BlogDalepp","descripcion":"teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."},
+        {"img": "/projects/php.png", "link": "https://manuelernestog.github.io/", "nombre":"Portfolio","descripcion":"teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."}
+    ],
+    "fotopila": ["/tecno/c++.png", "/tecno/django.png", "/tecno/php.png", "/tecno/phyton.png"]
     }
