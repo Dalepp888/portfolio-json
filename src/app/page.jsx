@@ -3,7 +3,7 @@ import Main from '@/components/main'
 
 export default function Home() {
   return (
-    <div className='w-full sm:w-max-[640px]'>
+    <div className='w-full max-sm:w-[100%]'>
         <Head/>
       <hr className='m-5'></hr>
       <div className='p-5'>
