@@ -1,18 +1,20 @@
-[{
+{
     "id": 1,
     "name": "David Alejandro Perez",
     "algo": "@DavidPerez",
     "fecha": "20 de Julio 2024",
     "info": "Computer Sciences Engineer with 10+ years of experience (since 2013) in building, operating, and scaling startups as a solopreneur, or working collaboratively in teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur.",
-    "experience1": "Cofounder & CTO",
-    "experience2": "Cofounder & CTO",
-    "experience3": "Cofounder & CTO",
-    "experience4": "Cofounder & CTO",
-    "fecha1": "Apr 2022 - Present",
-    "fecha2": "Apr 2022 - Present",
-    "fecha3": "Apr 2022 - Present",
-    "fecha4": "Apr 2022 - Present",
+    "experience": [
+        {"name": "Cofounder & CTO", "fecha": "Apr 2022 - Present"},
+        {"name": "Cofounder & CTO", "fecha": "Apr 2022 - Present"},
+        {"name": "Cofounder & CTO", "fecha": "Apr 2022 - Present"},
+        {"name": "Cofounder & CTO", "fecha": "Apr 2022 - Present"}
+    ],
     "carrera": "Ing informatica",
     "escuela": "UNICA",
-    "fechaesco": "septiembre 2022 - julio 2025"
-    }]
+    "fechaesco": "septiembre 2022 - julio 2025",
+    "projects":[
+        {"img": "/projects/c++.png", "nombre":"BlogDalepp","descripcion":"scaling startups as a solopreneur, or working collaboratively in teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."},
+        {"img": "/projects/php.png", "nombre":"Portfolio","descripcion":"Computer Sciences Engineer with 10+ years of experience (since 2013) in building, operating, and scaling startups as a solopreneur, or working collaboratively in teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."}
+    ]
+    }
