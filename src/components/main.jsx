@@ -6,7 +6,7 @@ import Experiences from "./sectionexperien";
 
 export default function Main(){
     return(
-        <div className="w-[700px] m-auto sm:w-max-[600px]">
+        <div className="w-full m-auto max-w-[700px] overflow-hidden">
             <Acerca/>
             <hr className="my-5"></hr>
             <Experiences/>
