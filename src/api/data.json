@@ -1,28 +1,25 @@
 {
-    "perfil": "/perfil/chica.png",
-    "portada": "/perfil/paisaje.png",
-    "name": "David Alejandro Perez",
-    "user": "@DavidPerez",
-    "fecha": "20 de Julio 2024",
-    "info": "Computer Sciences Engineer with 10+ years of experience (since 2013) in building, operating, and scaling startups as a solopreneur, or working collaboratively in teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur.",
+    "profile": "/perfil/chica.png",
+    "cover": "/perfil/paisaje.png",
+    "name": "David Alejandro Pèrez",
+    "user": "@dalepp6",
+    "date": "July 2024",
+    "info": "Hello! My name is David, my specialty is frontend development. I'm very good at minimalist design, although I like to go a little further. If you're looking for a frontend developer, look no further. I'm the person you need! ",
     "experience": [
-        {"ocu": "Cofounder & CTO", "fecha": "Apr 2022 - Present", "img":"/empresas/marca-de-neumáticos.png", "link": "https://erickdevup.netlify.app/", "name": "QCerris"},
-        {"ocu": "Cofounder & CTO", "fecha": "Apr 2022 - Present", "img":"/empresas/prestataire-de-mariage.png", "link": "https://erickdevup.netlify.app/", "name": "QCerris"},
-        {"ocu": "Cofounder & CTO", "fecha": "Apr 2022 - Present", "img":"/empresas/sellsy.png", "link": "https://erickdevup.netlify.app/", "name": "QCerris"},
-        {"ocu": "Cofounder & CTO", "fecha": "Apr 2022 - Present", "img":"/empresas/servicio-de-directorio.png", "link": "https://erickdevup.netlify.app/", "name": "QCerris"}
+        {"ocu": "Web Developer", "date": "December 2023 - Present", "img":"/empresas/marca-de-neumáticos.png", "link": "https://erickdevup.netlify.app/", "name": "Freelancer"}
     ],
-    "carrera": "Ing informatica",
-    "escuela": "UNICA",
-    "fechaesco": "septiembre 2022 - julio 2025",
+    "education": "Computer Engineering",
+    "school": "UNICA",
+    "dateschool": "september 2022 - ...",
     "projects":[
-        {"img": "/project/project1.png", "link": "https://erickdevup.netlify.app/","nombre":"BlogDalepp","descripcion":"teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."},
-        {"img": "/project/project2.png", "link": "https://manuelernestog.github.io/", "nombre":"Portfolio","descripcion":"teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."}
+        {"img": "/project/BlogD.PNG", "link": "https://historydalepp.netlify.app/","name":"BlogDalepp","description":"Here I showcase many of my experiences as a programmer and I give you some advice based on my mistakes and successes"},
+        {"img": "/project/project2.png", "link": "https://manuelernestog.github.io/", "name":"Portfolio","description":"teams of many sizes. Possesses valuable expertise in web development, with both frontend and backend capabilities. Has a successful track record in delivering projects as an independent contractor, team member, and entrepreneur."}
     ],
-    "fotopila": ["/tecno/html.png", "/tecno/css.png", "/tecno/js.png", "/tecno/react.png", "/tecno/tailwind.png", "/tecno/nextjs.png"],
-    "redes": [
-        {"foto": "/redes/facebook.png", "link": "https://erickdevup.netlify.app/"},
-        {"foto": "/redes/linkedin.png", "link": "https://erickdevup.netlify.app/"},
-        {"foto": "/redes/telegram.png", "link": "https://erickdevup.netlify.app/"}
+    "photostack": ["/tecno/html.png", "/tecno/css.png", "/tecno/js.png", "/tecno/react.png", "/tecno/tailwind.png", "/tecno/nextjs.png"],
+    "networks": [
+        {"photo": "/redes/twitter.png", "link": "https://erickdevup.netlify.app/"},
+        {"photo": "/redes/linkedin.png", "link": "https://erickdevup.netlify.app/"},
+        {"photo": "/redes/github.png", "link": "https://erickdevup.netlify.app/"}
     ],
     "cv": "https://manuelernestog.github.io/"
     }
