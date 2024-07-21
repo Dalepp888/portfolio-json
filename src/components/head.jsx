@@ -6,8 +6,8 @@ export default function Head() {
     const { name, user, date, cv, networks, profile, cover } = data
 
     return (
-        <div className="">
-            <div className=''>
+        <div>
+            <div>
                 <img src={cover} className="w-screen h-[40vh] top-0 max-sm:w-screen max-sm:h-[40vh]" />
             </div>
             <div className='m-auto w-[300px] py-20 text-center max-sm:w-[300px] max-sm:m-auto'>
@@ -19,7 +19,7 @@ export default function Head() {
                     <h3 className='text-slate-600 pb-2 text-sm'>{user} . Created {date}</h3>
                     <div className='flex justify-center pb-2'>
                         {networks.map(network => (
-                            <Link href={network.link} className='rounded-full overflow-hidden w-6 h-6'>
+                            <Link key={network.link} href={network.link} className='rounded-full overflow-hidden w-6 h-6'>
                                 <img src={network.photo} className='w-6 h-6 object-cover' />
                             </Link>
                         ))}
