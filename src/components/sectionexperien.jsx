@@ -10,7 +10,7 @@ export default function Experiences() {
     <div className=' max-sm:w-[400px] max-sm:px-5'>
       <h1 className="font-bold text-lg">Experiencias</h1>
       {experience.map(experience => (
-        <div className='max-sm:grid'>
+        <div key={experience.name} className='max-sm:grid'>
           <div>
             <div className='flex max-sm:grid max-sm:py-3 justify-between py-3'>
               <div className='flex'>

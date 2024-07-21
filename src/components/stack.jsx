@@ -9,7 +9,7 @@ export default function Stack() {
             <h1 className="font-bold text-lg">Tech Stack</h1>
             <div className="grid grid-cols-5 items-center max-sm:grid-cols-2">
                 {photostack.map(photostack => (
-                    <div className="py-3">
+                    <div key={photostack} className="py-3">
                         <img src={photostack} className="rounded-full w-16" />
                     </div>
                 ))}
