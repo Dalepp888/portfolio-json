@@ -22,11 +22,11 @@ export default function Experiences() {
                     <h3 className='max-sm:py-1 font-bold'>{experience.ocu}</h3>
                     <h3 className='text-slate-600'>{experience.name}</h3>
                   </div>
-                  <Link href={experience.link} className='text-cyan-500 font-bold'>Saber màs {al}</Link>
+                  <Link href={experience.link} className='text-cyan-500 font-bold'>See more {al}</Link>
                 </div>
               </div>
               <div className='max-sm:px-20'>
-                <h3 className='py-3 max-sm:py-1'>{experience.fecha}</h3>
+                <h3 className='py-3 max-sm:py-1'>{experience.date}</h3>
               </div>
             </div>
           </div>
