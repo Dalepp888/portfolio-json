@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import Head from '@/components/head'
 import Main from '@/components/main'
 
@@ -9,6 +10,7 @@ export default function Home() {
       <div className='p-5'>
         <Main/>
       </div>
+      <Footer/>
     </div>
   )
 }
