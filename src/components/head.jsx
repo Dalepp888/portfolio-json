@@ -8,7 +8,7 @@ export default async function Head() {
     return (
         <div>
             <div>
-                <img src={cover} className="w-screen h-[40vh] top-0 max-sm:w-screen max-sm:h-[40vh]" />
+                <img src={cover} className="w-screen h-[40vh] top-0 max-sm:w-screen max-sm:h-[40vh]"/>
             </div>
             <div className='m-auto w-[300px] py-20 text-center max-sm:w-[300px] max-sm:m-auto'>
                 <div className='w-full flex justify-center items-center relative'>
