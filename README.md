@@ -20,7 +20,8 @@ The file is inside the src/api/data.json folder.
 
 The first section will have everything that has to do with personal data. You can modify it in the following properties. 
 You can add the cover and profile photos to the profile folder inside the public folder, or you can use the direct internet link. 
-Inside public/network, there are photos of social media icons that you can add, or you can download the ones you need and put them in that folder
+Inside public/network, there are photos of social media icons that you can add, or you can download the ones you need and put them in that folder.
+You should go to public/document and place your CV document there. Then, modify the path accordingly, and you'll be done with this section.
 
     "profile": Profile picture
     "cover": Cover photo
@@ -44,7 +45,7 @@ For example:
         {"photo": "/network/linkedin.png", "link": "https://erickdevup.netlify.app/"},
         {"photo": "/network/github.png", "link": "https://erickdevup.netlify.app/"}
     ],
-    "cv": CV Link
+    "cv": "/document/CVDalepp.pdf"
 }
 ```
 
