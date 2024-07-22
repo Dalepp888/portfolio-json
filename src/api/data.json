@@ -4,22 +4,39 @@
     "name": "David Alejandro Pèrez",
     "user": "@dalepp6",
     "date": "July 2024",
-    "info": "Hello! My name is David, my specialty is frontend development. I'm very good at minimalist design, although I like to go a little further. If you're looking for a frontend developer, look no further. I'm the person you need! ",
-    "experience": [
-        {"occupation": "Web Developer", "date": "December 2023 - Present", "img":"/empresas/freelance.png", "link": "https://erickdevup.netlify.app/", "name": "Freelancer"}
-    ],
-    "education": "Computer Engineering",
-    "school": "UNICA",
-    "dateschool": "september 2022 - Present",
-    "projects":[
-        {"img": "/project/BlogD.PNG", "link": "https://historydalepp.netlify.app/","name":"BlogDalepp","description":"Here I showcase many of my experiences as a programmer and I give you some advice based on my mistakes and successes"},
-        {"img": "/project/plantilla.png", "link": "https://manuelernestog.github.io/", "name":"Template","description":"Create your own portfolio easily: beautiful, simple, and without leaving out any important information."}
-    ],
-    "photostack": ["/stack/html.png", "/stack/css.png", "/stack/js.png", "/stack/react.png", "/stack/tailwind.png", "/stack/nextjs.png", "/stack/ts.png"],
     "networks": [
         {"photo": "/network/twitter.png", "link": "https://erickdevup.netlify.app/"},
         {"photo": "/network/linkedin.png", "link": "https://erickdevup.netlify.app/"},
         {"photo": "/network/github.png", "link": "https://erickdevup.netlify.app/"}
     ],
-    "cv": "https://manuelernestog.github.io/"
+    "cv": "https://manuelernestog.github.io/",
+    "info": "Hello! My name is David, my specialty is frontend development. I'm very good at minimalist design, although I like to go a little further. If you're looking for a frontend developer, look no further. I'm the person you need! ",
+    "experience": [
+        {"occupation": "Web Developer", 
+        "date": "December 2023 - Present", 
+        "img":"/enterprises/freelance.png", 
+        "link": "https://erickdevup.netlify.app/", 
+        "name": "Freelancer"}
+    ],
+    "education": "Computer Engineering",
+    "school": "UNICA",
+    "dateschool": "september 2022 - Present",
+    "projects":[
+        {"img": "/project/BlogD.PNG", 
+        "link": "https://historydalepp.netlify.app/",
+        "name":"BlogDalepp",
+        "description":"Here I showcase many of my experiences as a programmer and I give you some advice based on my mistakes and successes"},
+        {"img": "/project/plantilla.png", 
+        "link": "https://manuelernestog.github.io/", 
+        "name":"Template",
+        "description":"Create your own portfolio easily: beautiful, simple, and without leaving out any important information."}
+    ],
+    "photostack": ["/stack/html.png", 
+                   "/stack/css.png", 
+                   "/stack/js.png", 
+                   "/stack/react.png", 
+                   "/stack/tailwind.png", 
+                   "/stack/nextjs.png", 
+                   "/stack/ts.png"
+    ]
     }
