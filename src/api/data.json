@@ -27,7 +27,7 @@
         "name":"BlogDalepp",
         "description":"Here I showcase many of my experiences as a programmer and I give you some advice based on my mistakes and successes"},
         {"img": "/project/plantilla.png", 
-        "link": "https://manuelernestog.github.io/", 
+        "link": "https://dalepp.netlify.app/", 
         "name":"Template",
         "description":"Create your own portfolio easily: beautiful, simple, and without leaving out any important information."}
     ],
@@ -38,5 +38,13 @@
                    "/stack/tailwind.png", 
                    "/stack/nextjs.png", 
                    "/stack/ts.png"
-    ]
+    ],
+
+    "SEO": {
+            "title": "David Alejandro",
+            "author": "David",
+            "keywords": ["Template de portafolio", "Personalizable", "Fácil de usar", "Next.js", "Crear portafolio",
+               "Easy setup", "Portafolio profesional", "Desarrolladores"],
+            "description": "Crea tu portafolio profesional con nuestro template fácil de personalizar. Desarrollado con Next.js y Tailwind CSS, integra tus datos rápidamente usando JSON. Ideal para desarrolladores y diseñadores."
+    }
     }
