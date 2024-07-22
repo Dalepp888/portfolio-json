@@ -19,12 +19,12 @@ export default async function Head() {
                     <h3 className='text-slate-600 pb-2 text-sm'>{`${user} . Created ${date}`}</h3>
                     <div className='flex justify-center pb-2'>
                         {networks.map(network => (
-                            <Link key={network.link} href={network.link} className='rounded-full overflow-hidden w-6 h-6'>
+                            <Link key={network.link} target='_blank' href={network.link} className='rounded-full overflow-hidden w-6 h-6'>
                                 <img src={network.photo} className='w-6 h-6 object-cover' />
                             </Link>
                         ))}
                     </div>
-                    <Link href={cv} className='text-cyan-500 font-bold pb-2'>Descargar CV</Link>
+                    <Link href={cv} target='_blank' download={true} className='text-cyan-500 font-bold pb-2'>Descargar CV</Link>
                 </div>
             </div>
         </div>

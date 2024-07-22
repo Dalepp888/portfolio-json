@@ -5,9 +5,9 @@
     "user": "@dalepp6",
     "date": "July 2024",
     "networks": [
-        {"photo": "/network/twitter.png", "link": "https://erickdevup.netlify.app/"},
-        {"photo": "/network/linkedin.png", "link": "https://erickdevup.netlify.app/"},
-        {"photo": "/network/github.png", "link": "https://erickdevup.netlify.app/"}
+        {"photo": "/network/twitter.png", "link": "https://twitter.com/DaleppWattpad?t=N7uPMwoATuPadYDI6eM_Yw&s=09"},
+        {"photo": "/network/telegram.png", "link": "https://t.me/Dalepp"},
+        {"photo": "/network/github.png", "link": "https://github.com/Dalepp888/"}
     ],
     "cv": "/document/CVDalepp.pdf",
     "info": "Hello! My name is David, my specialty is frontend development. I'm very good at minimalist design, although I like to go a little further. If you're looking for a frontend developer, look no further. I'm the person you need! ",

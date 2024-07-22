@@ -22,7 +22,7 @@ export default async function Experiences() {
                     <h3 className='max-sm:py-1 font-bold'>{experience.occupation}</h3>
                     <h3 className='text-slate-600'>{experience.name}</h3>
                   </div>
-                    <Link href={experience.link} className='text-cyan-500 font-bold justify-center'>{`See more >`}</Link>
+                    <Link href={experience.link} target='_blank' className='text-cyan-500 font-bold justify-center'>{`See more >`}</Link>
                 </div>
               </div>
               <div className='max-sm:px-20'>
