@@ -1,8 +1,9 @@
-import data from "@/api/data.json"
+import { data } from '@/api/data'
+import Image from 'next/image'
 
-export default function Stack() {
+export default async function Stack() {
 
-    const { photostack } = data
+    const { photostack } = await data()
 
     return (
         <div className="max-sm:w-full max-sm:mx-5">
@@ -10,7 +11,7 @@ export default function Stack() {
             <div className="grid grid-cols-5 items-center max-sm:grid-cols-2">
                 {photostack.map(photostack => (
                     <div key={photostack} className="py-3">
-                        <img src={photostack} className="rounded-full w-16" />
+                        <Image src={photostack} className="rounded-full" width={48} height={48} />
                     </div>
                 ))}
             </div>

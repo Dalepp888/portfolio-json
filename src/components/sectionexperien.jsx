@@ -1,14 +1,14 @@
-import data from '@/api/data.json'
+import { data } from '@/api/data'
 import Link from 'next/link'
 
-export default function Experiences() {
+export default async function Experiences() {
 
-  const { experience } = data
-  const al = ">"
+  const { experience } = await data()
+
 
   return (
     <div className=' max-sm:w-[400px] max-sm:px-5'>
-      <h1 className="font-bold text-lg">Experiencias</h1>
+      <h1 className="font-bold text-lg">Experiences</h1>
       {experience.map(experience => (
         <div key={experience.name} className='max-sm:grid'>
           <div>
@@ -22,7 +22,7 @@ export default function Experiences() {
                     <h3 className='max-sm:py-1 font-bold'>{experience.ocu}</h3>
                     <h3 className='text-slate-600'>{experience.name}</h3>
                   </div>
-                  <Link href={experience.link} className='text-cyan-500 font-bold'>See more {al}</Link>
+                    <Link href={experience.link} className='text-cyan-500 font-bold justify-center'>{`See more >`}</Link>
                 </div>
               </div>
               <div className='max-sm:px-20'>

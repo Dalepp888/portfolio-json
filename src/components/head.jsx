@@ -1,9 +1,9 @@
-import data from '@/api/data.json'
+import { data } from '@/api/data'
 import Link from 'next/link'
 
-export default function Head() {
+export default async function Head() {
 
-    const { name, user, date, cv, networks, profile, cover } = data
+    const { name, user, date, cv, networks, profile, cover } = await data()
 
     return (
         <div>
@@ -16,7 +16,7 @@ export default function Head() {
                 </div>
                 <div className=''>
                     <h1 className='text-xl pb-2 font-semibold'>{name}</h1>
-                    <h3 className='text-slate-600 pb-2 text-sm'>{user} . Created {date}</h3>
+                    <h3 className='text-slate-600 pb-2 text-sm'>{`${user} . Created ${date}`}</h3>
                     <div className='flex justify-center pb-2'>
                         {networks.map(network => (
                             <Link key={network.link} href={network.link} className='rounded-full overflow-hidden w-6 h-6'>

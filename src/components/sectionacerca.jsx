@@ -1,8 +1,8 @@
-import data from "@/api/data.json"
+import { data } from '@/api/data'
 
-export default function Acerca(){
+export default async function Acerca(){
 
-    const {info} = data
+    const {info} = await data()
 
     return(
         <div className="max-lg:max-w-[350px] max-lg:px-5">
