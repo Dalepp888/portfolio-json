@@ -1,12 +1,17 @@
 import './globals.css'
+import { data } from '@/api/data'
 
-export const metadata = {
-  title: 'Template',
-  generator: "Next.js",
-  author: "David",
-  keywords: ["Template de portafolio", "Personalizable", "Fácil de usar", "Next.js", "Crear portafolio",
-             "Easy setup", "Portafolio profesional", "Desarrolladores"],
-  description: 'Crea tu portafolio profesional con nuestro template fácil de personalizar. Desarrollado con Next.js y Tailwind CSS, integra tus datos rápidamente usando JSON. Ideal para desarrolladores y diseñadores.',
+
+export async function generateMetadata(params) {
+  const { SEO } = await data()
+
+ const metadata = {
+    title: SEO.title,
+    author: SEO.author,
+    keywords: SEO.keywords,
+    description: SEO.description,
+  }
+  return metadata
 }
 
 export default function RootLayout({ children }) {
