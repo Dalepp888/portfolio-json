@@ -1,22 +1,31 @@
 # Template
 
+## Example deploy
+
+https://dalepp.netlify.app/
+
 ## Getting Started
-## Live example
 
 ```bash
+npm install
 npm run dev
 # or
+yarn
 yarn dev
 # or
+pnpm install
 pnpm dev
 # or
+bun install
 bun dev
+```
+
 ## How to use
 
 You only need to work in the `data.json` file.
 The file is inside the src/api/data.json folder.
 
-### First section
+## First section
 
 The first section will have everything that has to do with personal data. You can modify it in the following properties. 
 You can add the cover and profile photos to the profile folder inside the public folder, or you can use the direct internet link. 
@@ -93,7 +102,6 @@ Fill in the fields as in the following example
 
 In this section, you can include as many projects as you want. The first thing to keep in mind is a photo of the project, which you can save in public/project. Then, you should provide the link to your project so it can be viewed, and lastly, a brief description
 
-## Deploy on Vercel
 For example:
 
 ```js
@@ -125,3 +133,22 @@ For example:
                    "/stack/ts.png"
     ]
 ```
+
+## Seventh Section
+
+In this section we are going to change the SEO ofyour portfolio. for that I created an SEO section in jfor that I created an SEO section in json
+
+For example:
+
+```js
+    "SEO": {
+            "title": "David Alejandro",
+            "author": "David",
+            "keywords": ["Template de portafolio", "Personalizable", "Fácil de usar", "Next.js", "Crear portafolio",
+                         "Easy setup", "Portafolio profesional", "Desarrolladores"],
+            "description": "Crea tu portafolio profesional con nuestro template fácil de personalizar. Desarrollado con Next.js y Tailwind CSS, integra tus datos 
+                            rápidamente usando JSON. Ideal para desarrolladores y diseñadores."
+    }    ]
+```
+
+In this section we are going to change the SEO ofyour portfolio. for that I created an SEO section in jfor that I created an SEO section in json
