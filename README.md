@@ -125,3 +125,22 @@ For example:
                    "/stack/ts.png"
     ]
 ```
+
+## Sixth Section
+
+In this section we are going to change the SEO ofyour portfolio. for that I created an SEO section in jfor that I created an SEO section in json
+
+For example:
+
+```js
+    "SEO": {
+            "title": "David Alejandro",
+            "author": "David",
+            "keywords": ["Template de portafolio", "Personalizable", "Fácil de usar", "Next.js", "Crear portafolio",
+                         "Easy setup", "Portafolio profesional", "Desarrolladores"],
+            "description": "Crea tu portafolio profesional con nuestro template fácil de personalizar. Desarrollado con Next.js y Tailwind CSS, integra tus datos 
+                            rápidamente usando JSON. Ideal para desarrolladores y diseñadores."
+    }    ]
+```
+
+In this section we are going to change the SEO ofyour portfolio. for that I created an SEO section in jfor that I created an SEO section in json
