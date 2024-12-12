@@ -5,46 +5,75 @@
     "user": "@dalepp6",
     "date": "July 2024",
     "networks": [
-        {"photo": "/network/twitter.png", "link": "https://twitter.com/DaleppWattpad?t=N7uPMwoATuPadYDI6eM_Yw&s=09"},
-        {"photo": "/network/telegram.png", "link": "https://t.me/Dalepp"},
-        {"photo": "/network/github.png", "link": "https://github.com/Dalepp888/"}
+        {
+            "photo": "/network/twitter.png",
+            "link": "https://twitter.com/DaleppWattpad?t=N7uPMwoATuPadYDI6eM_Yw&s=09"
+        },
+        {
+            "photo": "/network/telegram.png",
+            "link": "https://t.me/Dalepp"
+        },
+        {
+            "photo": "/network/github.png",
+            "link": "https://github.com/Dalepp888/"
+        }
     ],
     "cv": "/document/David Pérez Frontend .pdf",
     "info": "Hello! My name is David, my specialty is frontend development. I'm very good at minimalist design, although I like to go a little further. If you're looking for a frontend developer, look no further. I'm the person you need! ",
     "experience": [
-        {"occupation": "Web Developer", 
-        "date": "December 2023 - Present", 
-        "img":"/enterprises/freelance.png", 
-        "link": "https://github.com/Dalepp888", 
-        "name": "Freelancer"}
+        {
+            "occupation": "Web Developer",
+            "date": "December 2023 - Present",
+            "img": "/enterprises/freelance.png",
+            "link": "https://github.com/Dalepp888",
+            "name": "Freelancer"
+        }
     ],
     "education": "Computer Engineering",
     "school": "UNICA",
     "dateschool": "september 2022 - Present",
-    "projects":[
-        {"img": "/project/BlogD.PNG", 
-        "link": "https://historydalepp.netlify.app/",
-        "name":"BlogDalepp",
-        "description":"Here I showcase many of my experiences as a programmer and I give you some advice based on my mistakes and successes"},
-        {"img": "/project/plantilla.png", 
-        "link": "https://dalepp.netlify.app/", 
-        "name":"Template",
-        "description":"Create your own portfolio easily: beautiful, simple, and without leaving out any important information."}
+    "projects": [
+        {
+            "img": "/project/BlogD.PNG",
+            "link": "https://historydalepp.netlify.app/",
+            "name": "BlogDalepp",
+            "description": "Here I showcase many of my experiences as a programmer and I give you some advice based on my mistakes and successes"
+        },
+        {
+            "img": "/project/plantilla.png",
+            "link": "https://dalepp.netlify.app/",
+            "name": "Template",
+            "description": "Create your own portfolio easily: beautiful, simple, and without leaving out any important information."
+        },
+        {
+            "img": "/project/CineDataVault.PNG",
+            "link": "https://cinedatavault.netlify.app/",
+            "name": "CineDataVault",
+            "description": "Discover movies effortlessly: trailers, ratings, and all the details you need in one beautifully designed place."
+        }
     ],
-    "photostack": ["/stack/html.png", 
-                   "/stack/css.png", 
-                   "/stack/js.png", 
-                   "/stack/react.png", 
-                   "/stack/tailwind.png", 
-                   "/stack/nextjs.png", 
-                   "/stack/ts.png"
+    "photostack": [
+        "/stack/html.png",
+        "/stack/css.png",
+        "/stack/js.png",
+        "/stack/react.png",
+        "/stack/tailwind.png",
+        "/stack/nextjs.png",
+        "/stack/ts.png"
     ],
-
     "SEO": {
-            "title": "David Alejandro",
-            "author": "David",
-            "keywords": ["Template de portafolio", "Personalizable", "Fácil de usar", "Next.js", "Crear portafolio",
-               "Easy setup", "Portafolio profesional", "Desarrolladores"],
-            "description": "Crea tu portafolio profesional con nuestro template fácil de personalizar. Desarrollado con Next.js y Tailwind CSS, integra tus datos rápidamente usando JSON. Ideal para desarrolladores y diseñadores."
+        "title": "David Alejandro",
+        "author": "David",
+        "keywords": [
+            "Template de portafolio",
+            "Personalizable",
+            "Fácil de usar",
+            "Next.js",
+            "Crear portafolio",
+            "Easy setup",
+            "Portafolio profesional",
+            "Desarrolladores"
+        ],
+        "description": "Crea tu portafolio profesional con nuestro template fácil de personalizar. Desarrollado con Next.js y Tailwind CSS, integra tus datos rápidamente usando JSON. Ideal para desarrolladores y diseñadores."
     }
-    }
+}
