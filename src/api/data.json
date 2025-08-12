@@ -50,6 +50,12 @@
             "link": "https://cinedatavault.netlify.app/",
             "name": "CineDataVault",
             "description": "Discover movies effortlessly: trailers, ratings, and all the details you need in one beautifully designed place."
+        },
+        {
+            "img": "/project/Brittany.PNG",
+            "link": "https://youtu.be/DLYzyftZPuM?si=QFRCszkuJG8kZOzf",
+            "name": "Brittany",
+            "description": "Desarrollé un bot de Telegram que enseña inglés de forma interactiva, guiando al usuario a través de conversaciones temáticas y dinámicas que fomentan la práctica natural del idioma."
         }
     ],
     "photostack": [
@@ -59,7 +65,12 @@
         "/stack/react.png",
         "/stack/tailwind.png",
         "/stack/nextjs.png",
-        "/stack/ts.png"
+        "/stack/ts.png",
+        "/stack/docker.png",
+        "/stack/git.png",
+        "/stack/github.png",
+        "/stack/nestjs.png",
+        "/stack/nodejs.png"
     ],
     "SEO": {
         "title": "David Alejandro",
